@@ -1,6 +1,9 @@
 # dissect-contracking_cem
 
 ### Breakdown steps
+(0) addpath(genpath('..'))
+> - will add many many many folders to the MATLAB search path, recursively
+
 (1) setup options and scene
 > - opt=readConOptions('config/default3d.ini');
 > - load `config/default3d.ini` by default
